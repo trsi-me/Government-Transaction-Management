@@ -1,0 +1,10 @@
+# منع تنفيذ PHP في مجلد الرفع
+<FilesMatch "\.(php|php3|php4|php5|phtml)$">
+    Deny from all
+</FilesMatch>
+
+# السماح فقط بتحميل الملفات
+<FilesMatch "\.(jpg|jpeg|png|gif|pdf|doc|docx|xls|xlsx)$">
+    Allow from all
+</FilesMatch>
+

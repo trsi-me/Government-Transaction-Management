@@ -1,0 +1,2 @@
+C:\Users\TRSI\VSCode\Projects\Tracking Official Transactions Desktop\bin\Release\net8.0-windows\win-x64\publish\STOT.pdb
+C:\Users\TRSI\VSCode\Projects\Tracking Official Transactions Desktop\bin\Release\net8.0-windows\win-x64\publish\STOT.exe
