@@ -92,9 +92,9 @@ CREATE TABLE IF NOT EXISTS transaction_logs (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- إدراج حساب المدير الافتراضي
--- كلمة المرور: admin123 (يجب تغييرها بعد أول تسجيل دخول)
+-- كلمة المرور:  (يجب تغييرها بعد أول تسجيل دخول)
 INSERT INTO users (username, password, full_name, role) VALUES 
-('admin', '$2y$10$XBdArjYu5htkjnSrnXvgjejUvrqY9LOj8zZ71eBokWkIkp0mw2wEG', 'مدير النظام', 'admin');
+('admin', '', 'مدير النظام', 'admin');
 
 -- إدراج أنواع القوائم المنسدلة الأساسية
 INSERT INTO dropdown_types (name, display_name, description) VALUES

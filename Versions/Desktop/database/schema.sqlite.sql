@@ -104,5 +104,5 @@ CREATE TABLE IF NOT EXISTS sync_log (
 
 -- إضافة مستخدم افتراضي (admin/password)
 INSERT OR IGNORE INTO users (username, password, full_name, role) 
-VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'مدير النظام', 'admin');
+VALUES ('admin', '', 'مدير النظام', 'admin');
 
